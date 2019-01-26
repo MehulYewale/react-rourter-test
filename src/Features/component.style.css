@@ -1,0 +1,16 @@
+
+.blue-link {
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.error {
+    color:red;
+    font-weight: bold;
+}
+
+.success {
+    color:green;
+    font-weight: bold;
+}
