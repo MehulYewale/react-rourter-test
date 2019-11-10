@@ -9,7 +9,7 @@ class Statful extends Component {
   handleClick = (e) => {
     console.log("value", e.target.checked);
     this.setState({ selection: e.target.checked});
-    console.log("handleClick", this.state.selection); // but ui will not update, ui updation can be done with Statuful component and State
+    console.log("handleClick", this.state.selection);
 
     setTimeout(() => console.log("After Timeout 500 ms:", this.state.selection), 500);
   }

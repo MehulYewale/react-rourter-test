@@ -9,6 +9,11 @@ import UnControlComp from "./Features/UncontrolledComp";
 import Statful from "./Features/Stateful";
 import Stateless from "./Features/Stateless";
 import Hooks from "./Features/Hooks";
+import FunctionHooks from "./Features/FunctionHooks";
+import PureMemoComp from "./Features/PureMemoComp";
+import Composition from "./Features/Composition";
+import ContextComp from "./Features/ContextComp";
+
 import HttpRequester from "./Features/HttpRequester";
 import NavigationHeader from "./NavigationHeader";
 import Error from "./Features/Error";
@@ -51,7 +56,11 @@ class BaseRouters extends Component {
             <Route path="/uncontrol-comp" component={UnControlComp} />
             <Route path="/stateful" component={Statful} />
             <Route path="/stateless" component={Stateless} />
-            <Route path="/hooks" component={Hooks} />
+            <Route path="/class-lifecycle-hooks" component={Hooks} />
+            <Route path="/function-hooks" component={FunctionHooks} />
+            <Route path="/pure-memo-comp" component={PureMemoComp} />
+            <Route path="/context" component={ContextComp} />
+            <Route path="/composition-vs-inheritance" component={Composition} />
             <Route path="/http-requester" component={HttpRequester} />
 
             <Redirect to="/jsx" />

@@ -1,5 +1,4 @@
 import React from "react";
-
 import AppCheckbox from "./../components/app.chekcbox";
 
 /* A stateless component has no state(obvious, isn’t it?), it means that you can’t reach `this.state` inside it. It also has no lifecycle 
@@ -16,14 +15,14 @@ const Stateless = props => {
 
   const handleClick = (e) => {
     console.log("target value ", e.target.checked);
-    selection = e.target.checked;
-    console.log("handleClick", selection); // but ui will not update, ui updation can be done with Statuful component and State
+    selection = e.target.checked; // but ui will not update/renders, ui updation/renders can be done with Statuful component and State
+    console.log("handleClick", selection); 
   }
 
   return <div>
     <div>Stateless Comp</div>
     <AppCheckbox label="Select checkbox" checked={selection} change={handleClick}></AppCheckbox>
-  </div>;
+    </div>;
 };
 
 export default Stateless;

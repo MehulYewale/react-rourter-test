@@ -11,6 +11,7 @@ class Home extends Component {
             ? this.props.match.params.name.toUpperCase()
             : "Guest"}
         </h4>
+
       </div>
     );
   }
