@@ -46,3 +46,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 Routing with state management
 base class state,
 proptypes
+ "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
+
+    "devDependencies": {
+    "bootstrap": "^4.1.3"
+  }

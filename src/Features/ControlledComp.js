@@ -34,7 +34,7 @@ class ControlComp extends Component {
     });
   }
 
-  formValidation = (propName, value) => {
+  formValidation = () => {
     let msg = '', isValid = true;
     if(this.state.country === '') {
       msg = 'Please select Country';

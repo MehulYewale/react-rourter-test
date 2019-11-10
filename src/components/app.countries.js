@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 class AppCountries extends Component {
-    state = { selected : 'India' };
+    // state = { selected : 'India' };
 
     // The best practice is to ensure that your states are assigned in the constructor(). The reason React allows the setState() within 
     // this lifecycle method is for special cases like tooltips, 
